@@ -175,7 +175,7 @@ for (double temp : temps) {
 <br>
 
 # Practice Problems — Related Arrays & Enhanced For Loops
-Each problem reinforces the ideas from the lesson: related arrays and enhanced for loops.
+Annotated solutions to this problem set can be found [here](SOLUTIONS.md).
 
 ## Problem 1 — Print Names With Scores
 Create two related arrays:
