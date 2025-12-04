@@ -171,3 +171,149 @@ for (double temp : temps) {
 - **Related arrays** let us store connected data across multiple arrays where index alignment matters.
 - Use **regular index loops** when you need index access or are working across multiple arrays.
 - Use the **enhanced for loop** when you only need the values and want cleaner syntax.
+
+<br>
+
+# Practice Problems — Related Arrays & Enhanced For Loops
+Each problem reinforces the ideas from the lesson: related arrays and enhanced for loops.
+
+## Problem 1 — Print Names With Scores
+Create two related arrays:
+
+- `String[] names` with 5 player names
+- `int[] scores` with 5 corresponding scores
+
+Print each player’s name and score on the same line using a regular index-based loop.
+
+### Example Output
+```
+Ana: 12
+Ben: 22
+Ming: 18
+Lila: 31
+Kai: 15
+```
+
+## Problem 2 — Highest Score and Player
+Using the same two related arrays (`names[]` and `scores[]`):
+
+Write code to find:
+- the **highest score**
+- the **name** of the player who earned it
+
+Then print the pair together.
+
+### Example Output
+```
+Top player: Lila with 31 points
+```
+
+## Problem 3 — Average Temperature Using Enhanced For
+Ask the user for **5 temperature readings** and store them in a `double[] temps`.
+
+Use an enhanced for loop to compute the average.
+
+### Example Output
+```
+Average temperature = 21.44 °C
+```
+
+## Problem 4 — Count Honour Roll Students
+Given:
+```java
+int[] averages = {81, 90, 99, 78, 77, 94};
+```
+Use an enhanced for loop to count how many students have made the honour roll with an average of 80 percent or higher.
+
+Print the count.
+
+### Example Output
+```
+Honour roll students: 4
+```
+
+## Problem 5 — Month and Days Lookup
+Create the following related arrays:
+```java
+String[] months = {"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"};
+int[] days    = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
+```
+
+Ask the user for a month abbreviation (e.g., `"Apr"`).  
+Find the matching index and print how many days are in that month.
+
+### Example Output
+```
+Enter a month: Apr
+Apr has 30 days.
+```
+
+## Problem 6 — Sum of Prices
+Given:
+```java
+double[] prices = {5.99, 3.50, 12.00, 1.25};
+```
+Use an enhanced for loop to compute the total.
+
+### Example Output
+```
+Total = 22.74
+```
+
+## Problem 7 — Find Matching Last Names
+Create two related arrays:
+```java
+String[] firstNames = {"Amy", "Ben", "Chris", "Dana"};
+String[] lastNames  = {"Lee", "Wong", "Wong", "Patel"};
+```
+
+Ask the user for a last name.  
+Print all **first + last** name pairs that match the search.
+
+### Example Output
+```
+Search last name: Wong
+Ben Wong
+Chris Wong
+```
+
+## Problem 8 — Mirror Copy (Reverse Using Index Loop)
+Ask the user for **5 integers**, store them in an array, then create a **new array** where the values appear in reverse order.
+
+Use a normal index loop (not enhanced for) to build the reversed array.
+
+### Example Output
+```
+Original: 3 9 1 4 7
+Reversed: 7 4 1 9 3
+```
+
+## Problem 9 — Count How Many Are Even (Enhanced For)
+Given:
+```java
+int[] nums = {3, 10, 4, 7, 12, 5};
+```
+
+Use an enhanced for loop to count how many numbers are even.
+Print the final count.
+
+### Example Output
+```
+Even numbers: 3
+```
+
+## Problem 10 — Parallel Search (Two Related Arrays)
+Create two related arrays:
+```java
+String[] items = {"Pen", "Notebook", "Eraser", "Pencil"};
+double[] costs = {1.25, 3.50, 0.99, 0.75};
+```
+
+Ask the user for the name of an item.  
+Search for it using a regular for loop and print the matching price.
+
+### Example Output
+```
+Enter item: Eraser
+Price: $0.99
+```
